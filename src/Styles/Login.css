@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    background-color: black;
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: center; /* Center the component horizontally */
+    align-items: center; /* Center the component vertically */
+    height: 100vh; /* Set the height of the container to full viewport height */
+}
+
+#text {
+    padding: 15px;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: rgb(245, 230, 230);
+    text-align: center;
+}
+
+#inputNumber{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    margin: 7px;
+    padding: 8px;
+    outline: none;
+}
+
+#sendOtp{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    margin: 7px;
+    padding: 7px 15px;
+}

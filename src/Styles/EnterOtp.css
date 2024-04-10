@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-color: black;
+}
+
+#parentDiv {
+    text-align: center; /* Center the text and input fields */
+}
+
+#text {
+    padding: 15px;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: rgb(245, 230, 230);
+}
+
+#inputOtp {
+    display: flex;
+    justify-content: center; /* Center the input fields horizontally */
+    margin-top: 10px;
+}
+
+.inputOtp {
+    width: 30px; 
+    height: 30px;
+    margin: 0 5px; 
+    text-align: center;
+    font-size: 16px; 
+    color: white;
+    border: 1px solid white; 
+    border-radius: 5px; 
+    background-color: black;
+    outline: none;
+}
+
+#login {
+    padding: 5px 15px;
+    margin-top: 20px;
+    text-align: c;
+}
